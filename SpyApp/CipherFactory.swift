@@ -6,7 +6,7 @@ struct CipherFactory {
         "Ceasar": CeaserCipher(),
         "AlphaNumeric": AlphaNumericCeasarCipher(),
         "Mirror": Mirror(),
-        "PigLatin": PigLatin(),
+        "AtBash": AtBash(),
     ]
 
     func cipher(for key: String) -> Cipher {

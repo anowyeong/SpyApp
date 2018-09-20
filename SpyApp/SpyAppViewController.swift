@@ -85,18 +85,15 @@ class SpyAppViewController: UIViewController {
         cipher = factory.cipher(for: buttonText)
     }
 
-    @IBAction func PigLatinButtonPressed(_ sender: UIButton) {
+    @IBAction func AtBashButtonPressed(_ sender: UIButton) {
         guard
             let buttonLable = sender.titleLabel,
             let buttonText = buttonLable.text
-        else {
-            output.text = "No button or button text"
-            return
+            else {
+                output.text = "No button or button text"
+                return
         }
         cipher = factory.cipher(for: buttonText)
-        
-        
-        
     }
     
     
