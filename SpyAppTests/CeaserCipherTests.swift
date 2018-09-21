@@ -24,5 +24,10 @@ class CeaserCipherTests: XCTestCase {
         XCTAssertNil(result)
     }
 
+    func test_NumericalInputDoesntReturn_NIL() {
+        let result = cipher.encode("7", secret: "0")
+        
+        XCTAssertNotNil(result)
+    }
 
 }

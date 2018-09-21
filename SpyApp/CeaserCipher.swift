@@ -47,7 +47,7 @@ struct AlphaNumericCeasarCipher: Cipher {
             return nil
         }
         //array holding the possible outputs
-        let array = [65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,70,81,82,83,84,85,86,87,88,89,90,48,49,50,51,52,53,54,55,56,57]
+        let array = [65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,48,49,50,51,52,53,54,55,56,57]
         
         var encoded = ""
         
@@ -87,7 +87,7 @@ struct AlphaNumericCeasarCipher: Cipher {
             return nil
         }
         // An array that holds the unicode value of the possible outputs
-        let array = [65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,70,81,82,83,84,85,86,87,88,89,90,48,49,50,51,52,53,54,55,56,57]
+        let array = [65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,48,49,50,51,52,53,54,55,56,57]
         
         var decoded = ""
         
